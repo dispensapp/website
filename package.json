@@ -1,0 +1,21 @@
+{
+    "name": "dispensa",
+    "version": "1.0.0",
+    "description": "Website of \"Dispensa\" application",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dispensa-App/website.git"
+    },
+    "author": "nicolapreda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dispensa-App/website/issues"
+    },
+    "homepage": "https://github.com/Dispensa-App/website#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.1.2"
+    }
+}
