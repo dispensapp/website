@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: ["./src/**/*.{html,js}", "index.html"],
     theme: {
         extend: {
             fontSize: {
@@ -8,6 +8,8 @@ module.exports = {
             },
             colors: {
                 'primary-yellow': '#FFEAC2',
+                'secondary-yellow': '#FFF6E5',
+                'primary-blue': '#003049'
             }
         },
     },
