@@ -17,5 +17,8 @@
     "homepage": "https://github.com/Dispensa-App/website#readme",
     "devDependencies": {
         "tailwindcss": "^3.1.2"
+    },
+    "dependencies": {
+        "openssl": "^2.0.0"
     }
 }
